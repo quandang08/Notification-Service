@@ -9,7 +9,7 @@ public record PaymentConfirmation(
     BigDecimal amount,
     PaymentMethod paymentMethod,
     String customerFirstName,
-    String customerName,
+    String customerLastName,
     String customerEmail
 ) {
 }
